@@ -1,0 +1,26 @@
+{
+  "name": "ss-manager-server",
+  "version": "1.0.0",
+  "description": "ss-manager-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "llwwbb",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.16.1",
+    "@types/node": "^11.11.6",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.4000"
+  }
+}
